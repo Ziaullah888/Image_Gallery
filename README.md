@@ -1,17 +1,32 @@
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📸 Unsplash Infinite Scroll Gallery
 
-📸 Unsplash Image Gallery
-A simple, responsive image gallery built with React + Vite using the Unsplash API.
-Search for high-quality images, browse with infinite scrolling, and enjoy a clean, modern UI.
+A simple React + Vite app that fetches images from the [Unsplash API](https://unsplash.com/developers) and loads more as you scroll.
 
-🚀 Features
-🔍 Search Unsplash for any keyword.
+## Features
+- Search images by keyword
+- Infinite scrolling
+- Responsive design with Tailwind CSS
 
-♾ Infinite scrolling for seamless browsing.
+## Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/unsplash-gallery.git
+   cd unsplash-gallery
+Install dependencies:
 
-🌓 Dark mode toggle for a better viewing experience.
+bash
+Copy
+Edit
+npm install
+Create a .env file in the project root:
 
-⚡ Built with Vite for lightning-fast development.
+ini
+Copy
+Edit
+VITE_API_KEY=your_unsplash_access_key
+Run the app:
 
-🎨 Styled with Tailwind CSS for responsive design.
-
+bash
+Copy
+Edit
+npm run dev
